@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>{{ theme.name }}</title>
     <style>
         body {
             margin:0;
@@ -26,6 +26,12 @@
 <span style="color: {{ first }};">use</span> Closure;
 <span style="color: {{ first }};">use</span> <span style="color: {{ second }};">ArrayAccess</span>;
 
+<span style="color: {{ comment }};">/**
+ * Theme: {{ theme.name }}
+ * {{ theme.description }}
+ *
+ * Copyright (c) {{ year }} {{ theme.author }}
+ */</span>
 <span style="color: {{ first }};">class</span> Container <span style="color: {{ second }};">implements</span> <span style="color: {{ second }};">ArrayAccess</span> {
 
     <span style="color: {{ comment }};">/**
