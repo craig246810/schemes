@@ -6,35 +6,29 @@
  */
 
 pre.theme-zacks {
-
-  padding: 2em;
   background-color: #111111;
-  margin: 2em 0 3em 0;
+  color: #f0f0f0;
 }
 
 pre.theme-zacks code {
   font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
 }
 
-pre.theme-zacks code span {
-  line-height: 1.6em;
-}
-
 pre.theme-zacks .pln {
-  color: #e9e4e5;
+  color: #f0f0f0;
 }
 
 pre.theme-zacks .str {
   color: #bcd42a;
 }
 pre.theme-zacks .kwd {
-  color: #4bb1b1;
+  color: #9c7ddb;
 }
 pre.theme-zacks .com {
-  color: #888888;
+  color: #777777;
 }
 pre.theme-zacks .typ {
-  color: #ef7c61;
+  color: #ff6a38;
 }
 pre.theme-zacks .lit {
   color: #bcd42a;
@@ -42,21 +36,21 @@ pre.theme-zacks .lit {
 pre.theme-zacks .pun,
 pre.theme-zacks .opn,
 pre.theme-zacks .clo {
-  color: #ffffff;
+  color: #f0f0f0;
 }
 pre.theme-zacks .tag {
-  color: #4bb1b1;
+  color: #9c7ddb;
 }
 pre.theme-zacks .atn {
-  color: #ef7c61;
+  color: #ff6a38;
 }
 pre.theme-zacks .atv {
   color: #bcd42a;
 }
 pre.theme-zacks .dec,
 pre.theme-zacks .var {
-  color: #660066;
+  color: #bcd42a;
 }
 pre.theme-zacks .fun {
-  color: #ff0000;
+  color: #9c7ddb;
 }

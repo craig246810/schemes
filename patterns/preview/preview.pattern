@@ -18,15 +18,43 @@
 </head>
 <body>
 
-<pre style="color:{{ foreground }}; background-color: {{ background }};">
+<pre style="background-color: {{ background }}; color: {{ foreground }};">
 &lt;?php
 
-<span style="color: {{ first }};">class</span> Something
-{
-    <span style="color: {{ second }};">public</span> <span style="color: {{ first }};">function</span> <span style="color: {{ third }};">foo</span>()
+<span style="color: {{ second }};">namespace</span> Illuminate\Container;
+
+<span style="color: {{ first }};">use</span> Closure;
+<span style="color: {{ first }};">use</span> <span style="color: {{ second }};">ArrayAccess</span>;
+
+<span style="color: {{ first }};">class</span> Container <span style="color: {{ second }};">implements</span> <span style="color: {{ second }};">ArrayAccess</span> {
+
+    <span style="color: {{ comment }};">/**
+     * An array of the types that have been resolved.
+     *
+     * <span style="color: {{ first }};">@var</span> array
+     */</span>
+    <span style="color: {{ second }};">protected</span> $resolved <span style="color: {{ first }};">=</span> <span style="color: {{ second }};">array</span>();
+
+    <span style="color: {{ comment }};">/**
+     * Determine if a given type is shared.
+     *
+     * <span style="color: {{ first }};">@param</span>  string  $abstract
+     * <span style="color: {{ first }};">@return</span> bool
+     */</span>
+    <span style="color: {{ second }};">public</span> <span style="color: {{ first }};">function</span> <span style="color: {{ third }};">isShared</span>($abstract)
     {
-        echo <span style="color: {{ string }};">'bar'</span>;
+        <span style="color: {{ first }};">if</span> (<span style="color: {{ second }};">isset</span>($this<span style="color: {{ first }};">-></span>bindings[$abstract][<span style="color: {{ string }};">'shared'</span>]))
+        {
+            $shared <span style="color: {{ first }};">=</span> $this<span style="color: {{ first }};">-></span>bindings[$abstract][<span style="color: {{ string }};">'shared'</span>];
+        }
+        <span style="color: {{ first }};">else</span>
+        {
+            $shared <span style="color: {{ first }};">=</span> <span style="color: {{ second }};">false</span>;
+        }
+
+        <span style="color: {{ first }};">return</span> <span style="color: {{ second }};">isset</span>($this<span style="color: {{ first }};">-></span>instances[$abstract]) <span style="color: {{ first }};">||</span> $shared <span style="color: {{ first }};">===</span> <span style="color: {{ second }};">true</span>;
     }
+
 }
 </pre>
 

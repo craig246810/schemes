@@ -6,57 +6,51 @@
  */
 
 pre.theme-{{ theme.slug }} {
-
-  padding: 2em;
   background-color: {{ background }};
-  margin: 2em 0 3em 0;
+  color: {{ foreground }};
 }
 
 pre.theme-{{ theme.slug }} code {
   font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
 }
 
-pre.theme-{{ theme.slug }} code span {
-  line-height: 1.6em;
-}
-
 pre.theme-{{ theme.slug }} .pln {
-  color: #e9e4e5;
+  color: {{ foreground }};
 }
 
 pre.theme-{{ theme.slug }} .str {
-  color: #bcd42a;
+  color: {{ string }};
 }
 pre.theme-{{ theme.slug }} .kwd {
-  color: #4bb1b1;
+  color: {{ first }};
 }
 pre.theme-{{ theme.slug }} .com {
-  color: #888888;
+  color: {{ comment }};
 }
 pre.theme-{{ theme.slug }} .typ {
-  color: #ef7c61;
+  color: {{ second }};
 }
 pre.theme-{{ theme.slug }} .lit {
-  color: #bcd42a;
+  color: {{ third }};
 }
 pre.theme-{{ theme.slug }} .pun,
 pre.theme-{{ theme.slug }} .opn,
 pre.theme-{{ theme.slug }} .clo {
-  color: #ffffff;
+  color: {{ foreground }};
 }
 pre.theme-{{ theme.slug }} .tag {
-  color: #4bb1b1;
+  color: {{ first }};
 }
 pre.theme-{{ theme.slug }} .atn {
-  color: #ef7c61;
+  color: {{ second }};
 }
 pre.theme-{{ theme.slug }} .atv {
-  color: #bcd42a;
+  color: {{ third }};
 }
 pre.theme-{{ theme.slug }} .dec,
 pre.theme-{{ theme.slug }} .var {
-  color: #660066;
+  color: {{ string }};
 }
 pre.theme-{{ theme.slug }} .fun {
-  color: #ff0000;
+  color: {{ first }};
 }
