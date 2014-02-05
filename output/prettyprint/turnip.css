@@ -1,0 +1,56 @@
+/*
+ * Turnip
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2014 Dayle Rees
+ */
+
+pre.theme-turnip {
+  background-color: #1a1b1d;
+  color: #EDE0CE;
+}
+
+pre.theme-turnip code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre.theme-turnip .pln {
+  color: #EDE0CE;
+}
+
+pre.theme-turnip .str {
+  color: #E8DA5E;
+}
+pre.theme-turnip .kwd {
+  color: #92B55F;
+}
+pre.theme-turnip .com {
+  color: #7A7267;
+}
+pre.theme-turnip .typ {
+  color: #487D76;
+}
+pre.theme-turnip .lit {
+  color: #E8DA5E;
+}
+pre.theme-turnip .pun,
+pre.theme-turnip .opn,
+pre.theme-turnip .clo {
+  color: #EDE0CE;
+}
+pre.theme-turnip .tag {
+  color: #92B55F;
+}
+pre.theme-turnip .atn {
+  color: #487D76;
+}
+pre.theme-turnip .atv {
+  color: #E8DA5E;
+}
+pre.theme-turnip .dec,
+pre.theme-turnip .var {
+  color: #E8DA5E;
+}
+pre.theme-turnip .fun {
+  color: #92B55F;
+}
