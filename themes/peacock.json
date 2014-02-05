@@ -1,0 +1,33 @@
+{
+    "theme": {
+        "name":             "Peacock",
+        "description":      "Dayle's peacock sublime theme.",
+        "author":           "Dayle Rees",
+        "slug":             "peacock"
+    },
+
+    "background":               "#2b2a27",
+    "foreground":               "#ede0ce",
+    "first":                    "#26a6a6",
+    "second":                   "#ff5d38",
+    "third":                    "#bcd42a",
+    "fourth":                   "#",
+    "fifth":                    "#",
+    "comment":                  "#7a7267",
+    "string":                   "#bcd42a",
+    "number":                   "#bcd42a",
+    "selection_foreground":     "#ffffff",
+    "selection_background":     "#161a1f",
+    "selection_border":         "#222218",
+    "find_foreground":          "#000000",
+    "find_background":          "#ffe792",
+    "line_highlight":           "#403c37",
+    "caret":                    "#f8f8f0",
+    "invisibles":               "#3b3a32",
+    "scope_guide":              "#9d550fb0",
+    "brackets":                 "#f8f8f2a5",
+    "bracket_content":          "#f8f8f2a5",
+    "invalid_foreground":       "#f8f8f0",
+    "invalid_background":       "#00a8c6"
+
+}

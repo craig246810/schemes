@@ -1,0 +1,62 @@
+/*
+ * Peacock
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2014 Dayle Rees
+ */
+
+pre.theme-peacock {
+
+  padding: 2em;
+  background-color: #2b2a27;
+  margin: 2em 0 3em 0;
+}
+
+pre.theme-peacock code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre.theme-peacock code span {
+  line-height: 1.6em;
+}
+
+pre.theme-peacock .pln {
+  color: #e9e4e5;
+}
+
+pre.theme-peacock .str {
+  color: #bcd42a;
+}
+pre.theme-peacock .kwd {
+  color: #4bb1b1;
+}
+pre.theme-peacock .com {
+  color: #888888;
+}
+pre.theme-peacock .typ {
+  color: #ef7c61;
+}
+pre.theme-peacock .lit {
+  color: #bcd42a;
+}
+pre.theme-peacock .pun,
+pre.theme-peacock .opn,
+pre.theme-peacock .clo {
+  color: #ffffff;
+}
+pre.theme-peacock .tag {
+  color: #4bb1b1;
+}
+pre.theme-peacock .atn {
+  color: #ef7c61;
+}
+pre.theme-peacock .atv {
+  color: #bcd42a;
+}
+pre.theme-peacock .dec,
+pre.theme-peacock .var {
+  color: #660066;
+}
+pre.theme-peacock .fun {
+  color: #ff0000;
+}

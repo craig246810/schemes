@@ -1,0 +1,62 @@
+/*
+ * Zacks
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2014 Dayle Rees
+ */
+
+pre.theme-zacks {
+
+  padding: 2em;
+  background-color: #111111;
+  margin: 2em 0 3em 0;
+}
+
+pre.theme-zacks code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre.theme-zacks code span {
+  line-height: 1.6em;
+}
+
+pre.theme-zacks .pln {
+  color: #e9e4e5;
+}
+
+pre.theme-zacks .str {
+  color: #bcd42a;
+}
+pre.theme-zacks .kwd {
+  color: #4bb1b1;
+}
+pre.theme-zacks .com {
+  color: #888888;
+}
+pre.theme-zacks .typ {
+  color: #ef7c61;
+}
+pre.theme-zacks .lit {
+  color: #bcd42a;
+}
+pre.theme-zacks .pun,
+pre.theme-zacks .opn,
+pre.theme-zacks .clo {
+  color: #ffffff;
+}
+pre.theme-zacks .tag {
+  color: #4bb1b1;
+}
+pre.theme-zacks .atn {
+  color: #ef7c61;
+}
+pre.theme-zacks .atv {
+  color: #bcd42a;
+}
+pre.theme-zacks .dec,
+pre.theme-zacks .var {
+  color: #660066;
+}
+pre.theme-zacks .fun {
+  color: #ff0000;
+}
