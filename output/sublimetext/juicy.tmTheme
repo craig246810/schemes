@@ -403,7 +403,7 @@ Find more themes at : https://github.com/daylerees/colour-schemes
         </dict>
         <dict>
             <key>scope</key>
-            <string>meta.property-value, support.constant.property-value, constant.other.color.rgb-value.css</string>
+            <string>meta.property-value, support.constant.property-value, constant.other.color</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -426,6 +426,28 @@ Find more themes at : https://github.com/daylerees/colour-schemes
             <dict>
                 <key>foreground</key>
                 <string>#3bc7b8</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function argument</string>
+            <key>scope</key>
+            <string>meta.property-name support.type.property-name</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>normal</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function argument</string>
+            <key>scope</key>
+            <string>meta.property-value punctuation.separator.key-value</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#e3e2e0</string>
             </dict>
         </dict>
     </array>
