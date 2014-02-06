@@ -18,6 +18,14 @@ Dir['themes/*.json', 'themes/*/*.json'].each do |theme|
     # Output current theme being processed.
     puts "THEME: " + theme['theme']['name']
 
+    # Quick hack to insert unhashed values into the template array.
+    temp = Hash.new
+    theme.each do |key, value|
+        # Just strip the hash for new keys appended with _h
+        temp[key + '_h'] = value[1..-1] if value.is_a? String
+    end
+    theme.update temp
+
     # Iterate pattern files.
     Dir['patterns/*/*.pattern'].each do |pattern|
 
@@ -32,7 +40,6 @@ Dir['themes/*.json', 'themes/*/*.json'].each do |theme|
 
         # Output current format being processed.
         puts "\t- " + config['type']
-
 
         # Create a new handlebars instance.
         handlebars = Handlebars::Context.new
