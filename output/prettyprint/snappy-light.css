@@ -22,7 +22,7 @@ pre.theme-snappy-light .str {
   color: #4ea1df;
 }
 pre.theme-snappy-light .kwd {
-  color: #808dd3;
+  color: #4ea1df;
 }
 pre.theme-snappy-light .com {
   color: #bbbbbb;
@@ -31,7 +31,7 @@ pre.theme-snappy-light .typ {
   color: #f66153;
 }
 pre.theme-snappy-light .lit {
-  color: #4ea1df;
+  color: #808dd3;
 }
 pre.theme-snappy-light .pun,
 pre.theme-snappy-light .opn,
@@ -39,18 +39,18 @@ pre.theme-snappy-light .clo {
   color: #555555;
 }
 pre.theme-snappy-light .tag {
-  color: #808dd3;
+  color: #4ea1df;
 }
 pre.theme-snappy-light .atn {
   color: #f66153;
 }
 pre.theme-snappy-light .atv {
-  color: #4ea1df;
+  color: #808dd3;
 }
 pre.theme-snappy-light .dec,
 pre.theme-snappy-light .var {
   color: #4ea1df;
 }
 pre.theme-snappy-light .fun {
-  color: #808dd3;
+  color: #4ea1df;
 }

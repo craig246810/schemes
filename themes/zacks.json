@@ -11,8 +11,8 @@
     "first":                    "#9c7ddb",
     "second":                   "#ff6a38",
     "third":                    "#bcd42a",
-    "fourth":                   "#",
-    "fifth":                    "#",
+    "fourth":                   "#ff6a38",
+    "fifth":                    "#9c7ddb",
     "comment":                  "#777777",
     "string":                   "#bcd42a",
     "number":                   "#bcd42a",
@@ -25,8 +25,8 @@
     "caret":                    "#f8f8f0",
     "invisibles":               "#3b3a32",
     "scope_guide":              "#9d550fb0",
-    "brackets":                 "#f8f8f2a5",
-    "bracket_content":          "#f8f8f2a5",
+    "brackets":                 "#9c7ddb",
+    "bracket_content":          "#ff6a38",
     "invalid_foreground":       "#f8f8f0",
     "invalid_background":       "#00a8c6"
 

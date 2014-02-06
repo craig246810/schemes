@@ -22,16 +22,16 @@ pre.theme-sourlick .str {
   color: #E4FF33;
 }
 pre.theme-sourlick .kwd {
-  color: #FFBB29;
+  color: #EDF252;
 }
 pre.theme-sourlick .com {
   color: #615953;
 }
 pre.theme-sourlick .typ {
-  color: #70C910;
+  color: #8AC27A;
 }
 pre.theme-sourlick .lit {
-  color: #E4FF33;
+  color: #BDF522;
 }
 pre.theme-sourlick .pun,
 pre.theme-sourlick .opn,
@@ -39,18 +39,18 @@ pre.theme-sourlick .clo {
   color: #DEDEDE;
 }
 pre.theme-sourlick .tag {
-  color: #FFBB29;
+  color: #EDF252;
 }
 pre.theme-sourlick .atn {
-  color: #70C910;
+  color: #8AC27A;
 }
 pre.theme-sourlick .atv {
-  color: #E4FF33;
+  color: #BDF522;
 }
 pre.theme-sourlick .dec,
 pre.theme-sourlick .var {
   color: #E4FF33;
 }
 pre.theme-sourlick .fun {
-  color: #FFBB29;
+  color: #EDF252;
 }

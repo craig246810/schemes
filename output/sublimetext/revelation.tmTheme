@@ -49,7 +49,7 @@ Find more themes at : https://github.com/daylerees/colour-schemes
                 <string>underline</string>
 
                 <key>bracketContentsForeground</key>
-                <string>#617FA0</string>
+                <string>#FFBB29</string>
                 <key>bracketContentsOptions</key>
                 <string>underline</string>
 
@@ -132,7 +132,7 @@ Find more themes at : https://github.com/daylerees/colour-schemes
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#95C2E8</string>
+                <string>#C2DCF2</string>
             </dict>
         </dict>
         <dict>
@@ -158,7 +158,7 @@ Find more themes at : https://github.com/daylerees/colour-schemes
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#95C2E8</string>
+                <string>#4E5D84</string>
             </dict>
         </dict>
         <dict>
@@ -197,7 +197,7 @@ Find more themes at : https://github.com/daylerees/colour-schemes
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#FFBB29</string>
+                <string>#95C2E8</string>
             </dict>
         </dict>
         <dict>
@@ -223,7 +223,7 @@ Find more themes at : https://github.com/daylerees/colour-schemes
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#95C2E8</string>
+                <string>#4E5D84</string>
             </dict>
         </dict>
         <dict>
@@ -249,7 +249,7 @@ Find more themes at : https://github.com/daylerees/colour-schemes
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#617FA0</string>
+                <string>#FFBB29</string>
             </dict>
         </dict>
         <dict>
@@ -392,7 +392,6 @@ Find more themes at : https://github.com/daylerees/colour-schemes
                 <string>#E6DB74</string>
             </dict>
         </dict>
-
     </array>
     <key>uuid</key>
     <string>2FE74F49-E4DC-415F-A355-DC9EBAEF3234</string>

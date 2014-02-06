@@ -8,11 +8,11 @@
 
     "background":               "#2E2C2B",
     "foreground":               "#DEDEDE",
-    "first":                    "#95C2E8",
+    "first":                    "#4E5D84",
     "second":                   "#617FA0",
-    "third":                    "#FFBB29",
-    "fourth":                   "#",
-    "fifth":                    "#",
+    "third":                    "#95C2E8",
+    "fourth":                   "#C2DCF2",
+    "fifth":                    "#FFBB29",
     "comment":                  "#7b726b",
     "string":                   "#FFBB29",
     "number":                   "#617FA0",
@@ -26,7 +26,7 @@
     "invisibles":               "#3b3a32",
     "scope_guide":              "#9d550fb0",
     "brackets":                 "#95C2E8",
-    "bracket_content":          "#617FA0",
+    "bracket_content":          "#FFBB29",
     "invalid_foreground":       "#f8f8f0",
     "invalid_background":       "#00a8c6"
 

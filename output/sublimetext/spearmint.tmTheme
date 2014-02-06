@@ -39,7 +39,7 @@ Find more themes at : https://github.com/daylerees/colour-schemes
                 <key>findHighlightForeground</key>
                 <string>#000000</string>
                 <key>selectionBorder</key>
-                <string>#222218</string>
+                <string>#E1F0EE</string>
                 <key>activeGuide</key>
                 <string>#9d550fb0</string>
 
@@ -249,7 +249,7 @@ Find more themes at : https://github.com/daylerees/colour-schemes
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#25808A</string>
+                <string>#199FA8</string>
             </dict>
         </dict>
         <dict>
@@ -392,7 +392,6 @@ Find more themes at : https://github.com/daylerees/colour-schemes
                 <string>#E6DB74</string>
             </dict>
         </dict>
-
     </array>
     <key>uuid</key>
     <string>2FE74F49-E4DC-415F-A355-DC9EBAEF3234</string>

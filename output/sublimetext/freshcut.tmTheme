@@ -132,7 +132,7 @@ Find more themes at : https://github.com/daylerees/colour-schemes
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#4ECDC4</string>
+                <string>#C8D7E8</string>
             </dict>
         </dict>
         <dict>
@@ -197,7 +197,7 @@ Find more themes at : https://github.com/daylerees/colour-schemes
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#e9ee00</string>
+                <string>#AEE239</string>
             </dict>
         </dict>
         <dict>
@@ -249,7 +249,7 @@ Find more themes at : https://github.com/daylerees/colour-schemes
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#00A8C6</string>
+                <string>#4ECDC4</string>
             </dict>
         </dict>
         <dict>
@@ -392,7 +392,6 @@ Find more themes at : https://github.com/daylerees/colour-schemes
                 <string>#E6DB74</string>
             </dict>
         </dict>
-
     </array>
     <key>uuid</key>
     <string>2FE74F49-E4DC-415F-A355-DC9EBAEF3234</string>

@@ -22,16 +22,16 @@ pre.theme-glowfish .str {
   color: #F8BB39;
 }
 pre.theme-glowfish .kwd {
-  color: #DB784D;
+  color: #95CC5E;
 }
 pre.theme-glowfish .com {
   color: #3c4e2d;
 }
 pre.theme-glowfish .typ {
-  color: #95CC5E;
+  color: #DB784D;
 }
 pre.theme-glowfish .lit {
-  color: #F8BB39;
+  color: #60A365;
 }
 pre.theme-glowfish .pun,
 pre.theme-glowfish .opn,
@@ -39,18 +39,18 @@ pre.theme-glowfish .clo {
   color: #6ea240;
 }
 pre.theme-glowfish .tag {
-  color: #DB784D;
-}
-pre.theme-glowfish .atn {
   color: #95CC5E;
 }
+pre.theme-glowfish .atn {
+  color: #DB784D;
+}
 pre.theme-glowfish .atv {
-  color: #F8BB39;
+  color: #60A365;
 }
 pre.theme-glowfish .dec,
 pre.theme-glowfish .var {
   color: #F8BB39;
 }
 pre.theme-glowfish .fun {
-  color: #DB784D;
+  color: #95CC5E;
 }

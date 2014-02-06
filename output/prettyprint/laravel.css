@@ -28,10 +28,10 @@ pre.theme-laravel .com {
   color: #615953;
 }
 pre.theme-laravel .typ {
-  color: #FC580C;
+  color: #FC6B0A;
 }
 pre.theme-laravel .lit {
-  color: #FDCA49;
+  color: #FC580C;
 }
 pre.theme-laravel .pun,
 pre.theme-laravel .opn,
@@ -42,10 +42,10 @@ pre.theme-laravel .tag {
   color: #FFC48C;
 }
 pre.theme-laravel .atn {
-  color: #FC580C;
+  color: #FC6B0A;
 }
 pre.theme-laravel .atv {
-  color: #FDCA49;
+  color: #FC580C;
 }
 pre.theme-laravel .dec,
 pre.theme-laravel .var {
