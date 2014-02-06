@@ -1,0 +1,56 @@
+/*
+ * Laravel
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2014 Dayle Rees
+ */
+
+pre.theme-laravel {
+  background-color: #2E2C2B;
+  color: #DEDEDE;
+}
+
+pre.theme-laravel code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre.theme-laravel .pln {
+  color: #DEDEDE;
+}
+
+pre.theme-laravel .str {
+  color: #FDCA49;
+}
+pre.theme-laravel .kwd {
+  color: #FFC48C;
+}
+pre.theme-laravel .com {
+  color: #615953;
+}
+pre.theme-laravel .typ {
+  color: #FC580C;
+}
+pre.theme-laravel .lit {
+  color: #FDCA49;
+}
+pre.theme-laravel .pun,
+pre.theme-laravel .opn,
+pre.theme-laravel .clo {
+  color: #DEDEDE;
+}
+pre.theme-laravel .tag {
+  color: #FFC48C;
+}
+pre.theme-laravel .atn {
+  color: #FC580C;
+}
+pre.theme-laravel .atv {
+  color: #FDCA49;
+}
+pre.theme-laravel .dec,
+pre.theme-laravel .var {
+  color: #FDCA49;
+}
+pre.theme-laravel .fun {
+  color: #FFC48C;
+}

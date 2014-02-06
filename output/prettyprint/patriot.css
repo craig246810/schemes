@@ -1,0 +1,56 @@
+/*
+ * Patriot
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2014 Dayle Rees
+ */
+
+pre.theme-patriot {
+  background-color: #2D3133;
+  color: #CAD9E3;
+}
+
+pre.theme-patriot code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre.theme-patriot .pln {
+  color: #CAD9E3;
+}
+
+pre.theme-patriot .str {
+  color: #3790DE;
+}
+pre.theme-patriot .kwd {
+  color: #DE333C;
+}
+pre.theme-patriot .com {
+  color: #515E66;
+}
+pre.theme-patriot .typ {
+  color: #2E6FD9;
+}
+pre.theme-patriot .lit {
+  color: #ffffff;
+}
+pre.theme-patriot .pun,
+pre.theme-patriot .opn,
+pre.theme-patriot .clo {
+  color: #CAD9E3;
+}
+pre.theme-patriot .tag {
+  color: #DE333C;
+}
+pre.theme-patriot .atn {
+  color: #2E6FD9;
+}
+pre.theme-patriot .atv {
+  color: #ffffff;
+}
+pre.theme-patriot .dec,
+pre.theme-patriot .var {
+  color: #3790DE;
+}
+pre.theme-patriot .fun {
+  color: #DE333C;
+}

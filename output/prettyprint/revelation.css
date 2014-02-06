@@ -1,0 +1,56 @@
+/*
+ * Revelation
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2014 Dayle Rees
+ */
+
+pre.theme-revelation {
+  background-color: #2E2C2B;
+  color: #DEDEDE;
+}
+
+pre.theme-revelation code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre.theme-revelation .pln {
+  color: #DEDEDE;
+}
+
+pre.theme-revelation .str {
+  color: #FFBB29;
+}
+pre.theme-revelation .kwd {
+  color: #95C2E8;
+}
+pre.theme-revelation .com {
+  color: #7b726b;
+}
+pre.theme-revelation .typ {
+  color: #617FA0;
+}
+pre.theme-revelation .lit {
+  color: #FFBB29;
+}
+pre.theme-revelation .pun,
+pre.theme-revelation .opn,
+pre.theme-revelation .clo {
+  color: #DEDEDE;
+}
+pre.theme-revelation .tag {
+  color: #95C2E8;
+}
+pre.theme-revelation .atn {
+  color: #617FA0;
+}
+pre.theme-revelation .atv {
+  color: #FFBB29;
+}
+pre.theme-revelation .dec,
+pre.theme-revelation .var {
+  color: #FFBB29;
+}
+pre.theme-revelation .fun {
+  color: #95C2E8;
+}

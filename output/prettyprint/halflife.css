@@ -1,0 +1,56 @@
+/*
+ * Halflife
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2014 Dayle Rees
+ */
+
+pre.theme-halflife {
+  background-color: #222222;
+  color: #cccccc;
+}
+
+pre.theme-halflife code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre.theme-halflife .pln {
+  color: #cccccc;
+}
+
+pre.theme-halflife .str {
+  color: #F9D423;
+}
+pre.theme-halflife .kwd {
+  color: #FC913A;
+}
+pre.theme-halflife .com {
+  color: #555555;
+}
+pre.theme-halflife .typ {
+  color: #7D8991;
+}
+pre.theme-halflife .lit {
+  color: #F9D423;
+}
+pre.theme-halflife .pun,
+pre.theme-halflife .opn,
+pre.theme-halflife .clo {
+  color: #cccccc;
+}
+pre.theme-halflife .tag {
+  color: #FC913A;
+}
+pre.theme-halflife .atn {
+  color: #7D8991;
+}
+pre.theme-halflife .atv {
+  color: #F9D423;
+}
+pre.theme-halflife .dec,
+pre.theme-halflife .var {
+  color: #F9D423;
+}
+pre.theme-halflife .fun {
+  color: #FC913A;
+}

@@ -1,0 +1,56 @@
+/*
+ * Spearmint
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2014 Dayle Rees
+ */
+
+pre.theme-spearmint {
+  background-color: #E1F0EE;
+  color: #719692;
+}
+
+pre.theme-spearmint code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre.theme-spearmint .pln {
+  color: #719692;
+}
+
+pre.theme-spearmint .str {
+  color: #4CD7E0;
+}
+pre.theme-spearmint .kwd {
+  color: #69ADB5;
+}
+pre.theme-spearmint .com {
+  color: #93C7C0;
+}
+pre.theme-spearmint .typ {
+  color: #25808A;
+}
+pre.theme-spearmint .lit {
+  color: #4CD7E0;
+}
+pre.theme-spearmint .pun,
+pre.theme-spearmint .opn,
+pre.theme-spearmint .clo {
+  color: #719692;
+}
+pre.theme-spearmint .tag {
+  color: #69ADB5;
+}
+pre.theme-spearmint .atn {
+  color: #25808A;
+}
+pre.theme-spearmint .atv {
+  color: #4CD7E0;
+}
+pre.theme-spearmint .dec,
+pre.theme-spearmint .var {
+  color: #4CD7E0;
+}
+pre.theme-spearmint .fun {
+  color: #69ADB5;
+}

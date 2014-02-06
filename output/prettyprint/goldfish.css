@@ -1,0 +1,56 @@
+/*
+ * Goldfish
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2014 Dayle Rees
+ */
+
+pre.theme-goldfish {
+  background-color: #2E3336;
+  color: #F8F8F2;
+}
+
+pre.theme-goldfish code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre.theme-goldfish .pln {
+  color: #F8F8F2;
+}
+
+pre.theme-goldfish .str {
+  color: #f36e3a;
+}
+pre.theme-goldfish .kwd {
+  color: #A7DBD8;
+}
+pre.theme-goldfish .com {
+  color: #505C63;
+}
+pre.theme-goldfish .typ {
+  color: #F38630;
+}
+pre.theme-goldfish .lit {
+  color: #E0E4CC;
+}
+pre.theme-goldfish .pun,
+pre.theme-goldfish .opn,
+pre.theme-goldfish .clo {
+  color: #F8F8F2;
+}
+pre.theme-goldfish .tag {
+  color: #A7DBD8;
+}
+pre.theme-goldfish .atn {
+  color: #F38630;
+}
+pre.theme-goldfish .atv {
+  color: #E0E4CC;
+}
+pre.theme-goldfish .dec,
+pre.theme-goldfish .var {
+  color: #f36e3a;
+}
+pre.theme-goldfish .fun {
+  color: #A7DBD8;
+}

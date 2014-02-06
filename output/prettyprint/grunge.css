@@ -1,0 +1,56 @@
+/*
+ * Grunge
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2014 Dayle Rees
+ */
+
+pre.theme-grunge {
+  background-color: #31332C;
+  color: #F8F8F2;
+}
+
+pre.theme-grunge code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre.theme-grunge .pln {
+  color: #F8F8F2;
+}
+
+pre.theme-grunge .str {
+  color: #D1F2A5;
+}
+pre.theme-grunge .kwd {
+  color: #FFC48C;
+}
+pre.theme-grunge .com {
+  color: #5C634F;
+}
+pre.theme-grunge .typ {
+  color: #F56991;
+}
+pre.theme-grunge .lit {
+  color: #D1F2A5;
+}
+pre.theme-grunge .pun,
+pre.theme-grunge .opn,
+pre.theme-grunge .clo {
+  color: #F8F8F2;
+}
+pre.theme-grunge .tag {
+  color: #FFC48C;
+}
+pre.theme-grunge .atn {
+  color: #F56991;
+}
+pre.theme-grunge .atv {
+  color: #D1F2A5;
+}
+pre.theme-grunge .dec,
+pre.theme-grunge .var {
+  color: #D1F2A5;
+}
+pre.theme-grunge .fun {
+  color: #FFC48C;
+}
