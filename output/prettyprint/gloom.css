@@ -1,0 +1,56 @@
+/*
+ * Gloom
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2014 Dayle Rees
+ */
+
+pre.theme-gloom {
+  background-color: #2A332B;
+  color: #D8EBE5;
+}
+
+pre.theme-gloom code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre.theme-gloom .pln {
+  color: #D8EBE5;
+}
+
+pre.theme-gloom .str {
+  color: #BCD42A;
+}
+pre.theme-gloom .kwd {
+  color: #FF5D38;
+}
+pre.theme-gloom .com {
+  color: #4F6E64;
+}
+pre.theme-gloom .typ {
+  color: #26A6A6;
+}
+pre.theme-gloom .lit {
+  color: #BCD42A;
+}
+pre.theme-gloom .pun,
+pre.theme-gloom .opn,
+pre.theme-gloom .clo {
+  color: #D8EBE5;
+}
+pre.theme-gloom .tag {
+  color: #FF5D38;
+}
+pre.theme-gloom .atn {
+  color: #26A6A6;
+}
+pre.theme-gloom .atv {
+  color: #BCD42A;
+}
+pre.theme-gloom .dec,
+pre.theme-gloom .var {
+  color: #BCD42A;
+}
+pre.theme-gloom .fun {
+  color: #FF5D38;
+}
