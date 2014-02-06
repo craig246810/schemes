@@ -28,6 +28,7 @@
     "brackets":                 "#D1D1D1",
     "bracket_content":          "#F03113",
     "invalid_foreground":       "#f8f8f0",
-    "invalid_background":       "#00a8c6"
+    "invalid_background":       "#00a8c6",
+    "docblock":                 "#b7b1a9"
 
 }
