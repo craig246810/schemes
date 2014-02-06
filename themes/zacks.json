@@ -6,7 +6,7 @@
         "slug":             "zacks"
     },
 
-    "background":               "#111111",
+    "background":               "#222222",
     "foreground":               "#f0f0f0",
     "first":                    "#9c7ddb",
     "second":                   "#ff6a38",
@@ -21,7 +21,7 @@
     "selection_border":         "#222218",
     "find_foreground":          "#000000",
     "find_background":          "#ffe792",
-    "line_highlight":           "#222222",
+    "line_highlight":           "#333333",
     "caret":                    "#f8f8f0",
     "invisibles":               "#3b3a32",
     "scope_guide":              "#9d550fb0",

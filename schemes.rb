@@ -3,7 +3,7 @@ require 'handlebars'
 require 'fileutils'
 
 # Iterate theme files.
-Dir['themes/*.json'].each do |theme|
+Dir['themes/*.json', 'themes/*/*.json'].each do |theme|
 
 
     # Load the theme file.
@@ -33,8 +33,6 @@ Dir['themes/*.json'].each do |theme|
         # Output current format being processed.
         puts "\t- " + config['type']
 
-        # Create the output directory.
-        FileUtils.mkpath('output/'+config['folder'])
 
         # Create a new handlebars instance.
         handlebars = Handlebars::Context.new
@@ -42,8 +40,19 @@ Dir['themes/*.json'].each do |theme|
         # Apply the pattern template to the handlebars instance.
         template = handlebars.compile template
 
-        # Output the result as a file mmmm concat.
-        filename = 'output/'+config['folder']+'/'+theme['theme']['slug']+config['extension']
+        # Build the output path.
+        path = 'output/' + config['folder'] + '/'
+
+        # Option for subfolders.
+        path << theme['theme']['dir']+'/' if theme['theme']['dir']
+
+        # Create the output directory.
+        FileUtils.mkpath(path)
+
+        # Build the file path.
+        filename = path + theme['theme']['slug']+config['extension']
+
+        # Write the file.
         File.open(filename, 'w').write template.call theme
     end
 end
