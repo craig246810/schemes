@@ -1,0 +1,56 @@
+/*
+ * Tron
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2014 Dayle Rees
+ */
+
+pre.theme-tron {
+  background-color: #14191f;
+  color: #aec2e0;
+}
+
+pre.theme-tron code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre.theme-tron .pln {
+  color: #aec2e0;
+}
+
+pre.theme-tron .str {
+  color: #6ee2ff;
+}
+pre.theme-tron .kwd {
+  color: #7a9bc2;
+}
+pre.theme-tron .com {
+  color: #324357;
+}
+pre.theme-tron .typ {
+  color: #ffffff;
+}
+pre.theme-tron .lit {
+  color: #ffffff;
+}
+pre.theme-tron .pun,
+pre.theme-tron .opn,
+pre.theme-tron .clo {
+  color: #aec2e0;
+}
+pre.theme-tron .tag {
+  color: #7a9bc2;
+}
+pre.theme-tron .atn {
+  color: #ffffff;
+}
+pre.theme-tron .atv {
+  color: #ffffff;
+}
+pre.theme-tron .dec,
+pre.theme-tron .var {
+  color: #6ee2ff;
+}
+pre.theme-tron .fun {
+  color: #7a9bc2;
+}

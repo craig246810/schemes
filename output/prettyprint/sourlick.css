@@ -1,0 +1,56 @@
+/*
+ * Sourlick
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2014 Dayle Rees
+ */
+
+pre.theme-sourlick {
+  background-color: #2E2C2B;
+  color: #DEDEDE;
+}
+
+pre.theme-sourlick code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre.theme-sourlick .pln {
+  color: #DEDEDE;
+}
+
+pre.theme-sourlick .str {
+  color: #E4FF33;
+}
+pre.theme-sourlick .kwd {
+  color: #FFBB29;
+}
+pre.theme-sourlick .com {
+  color: #615953;
+}
+pre.theme-sourlick .typ {
+  color: #70C910;
+}
+pre.theme-sourlick .lit {
+  color: #E4FF33;
+}
+pre.theme-sourlick .pun,
+pre.theme-sourlick .opn,
+pre.theme-sourlick .clo {
+  color: #DEDEDE;
+}
+pre.theme-sourlick .tag {
+  color: #FFBB29;
+}
+pre.theme-sourlick .atn {
+  color: #70C910;
+}
+pre.theme-sourlick .atv {
+  color: #E4FF33;
+}
+pre.theme-sourlick .dec,
+pre.theme-sourlick .var {
+  color: #E4FF33;
+}
+pre.theme-sourlick .fun {
+  color: #FFBB29;
+}

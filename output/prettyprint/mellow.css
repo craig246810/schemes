@@ -1,0 +1,56 @@
+/*
+ * Mellow
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2014 Dayle Rees
+ */
+
+pre.theme-mellow {
+  background-color: #36312C;
+  color: #F8F8F2;
+}
+
+pre.theme-mellow code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre.theme-mellow .pln {
+  color: #F8F8F2;
+}
+
+pre.theme-mellow .str {
+  color: #F8BB39;
+}
+pre.theme-mellow .kwd {
+  color: #F2BC79;
+}
+pre.theme-mellow .com {
+  color: #7A7267;
+}
+pre.theme-mellow .typ {
+  color: #1F8181;
+}
+pre.theme-mellow .lit {
+  color: #F8BB39;
+}
+pre.theme-mellow .pun,
+pre.theme-mellow .opn,
+pre.theme-mellow .clo {
+  color: #F8F8F2;
+}
+pre.theme-mellow .tag {
+  color: #F2BC79;
+}
+pre.theme-mellow .atn {
+  color: #1F8181;
+}
+pre.theme-mellow .atv {
+  color: #F8BB39;
+}
+pre.theme-mellow .dec,
+pre.theme-mellow .var {
+  color: #F8BB39;
+}
+pre.theme-mellow .fun {
+  color: #F2BC79;
+}

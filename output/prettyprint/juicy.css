@@ -1,0 +1,56 @@
+/*
+ * Juicy
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2014 Dayle Rees
+ */
+
+pre.theme-juicy {
+  background-color: #222222;
+  color: #e3e2e0;
+}
+
+pre.theme-juicy code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre.theme-juicy .pln {
+  color: #e3e2e0;
+}
+
+pre.theme-juicy .str {
+  color: #3bc7b8;
+}
+pre.theme-juicy .kwd {
+  color: #FF4E50;
+}
+pre.theme-juicy .com {
+  color: #777777;
+}
+pre.theme-juicy .typ {
+  color: #3bc7b8;
+}
+pre.theme-juicy .lit {
+  color: #c3cb4c;
+}
+pre.theme-juicy .pun,
+pre.theme-juicy .opn,
+pre.theme-juicy .clo {
+  color: #e3e2e0;
+}
+pre.theme-juicy .tag {
+  color: #FF4E50;
+}
+pre.theme-juicy .atn {
+  color: #3bc7b8;
+}
+pre.theme-juicy .atv {
+  color: #c3cb4c;
+}
+pre.theme-juicy .dec,
+pre.theme-juicy .var {
+  color: #3bc7b8;
+}
+pre.theme-juicy .fun {
+  color: #FF4E50;
+}

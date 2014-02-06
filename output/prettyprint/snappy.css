@@ -1,0 +1,56 @@
+/*
+ * Snappy
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2014 Dayle Rees
+ */
+
+pre.theme-snappy {
+  background-color: #393939;
+  color: #e3e2e0;
+}
+
+pre.theme-snappy code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre.theme-snappy .pln {
+  color: #e3e2e0;
+}
+
+pre.theme-snappy .str {
+  color: #4ea1df;
+}
+pre.theme-snappy .kwd {
+  color: #808dd3;
+}
+pre.theme-snappy .com {
+  color: #696969;
+}
+pre.theme-snappy .typ {
+  color: #f66153;
+}
+pre.theme-snappy .lit {
+  color: #4ea1df;
+}
+pre.theme-snappy .pun,
+pre.theme-snappy .opn,
+pre.theme-snappy .clo {
+  color: #e3e2e0;
+}
+pre.theme-snappy .tag {
+  color: #808dd3;
+}
+pre.theme-snappy .atn {
+  color: #f66153;
+}
+pre.theme-snappy .atv {
+  color: #4ea1df;
+}
+pre.theme-snappy .dec,
+pre.theme-snappy .var {
+  color: #4ea1df;
+}
+pre.theme-snappy .fun {
+  color: #808dd3;
+}

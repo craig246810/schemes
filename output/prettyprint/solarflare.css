@@ -1,0 +1,56 @@
+/*
+ * Solarflare
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2014 Dayle Rees
+ */
+
+pre.theme-solarflare {
+  background-color: #222222;
+  color: #e3e2e0;
+}
+
+pre.theme-solarflare code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre.theme-solarflare .pln {
+  color: #e3e2e0;
+}
+
+pre.theme-solarflare .str {
+  color: #EDE574;
+}
+pre.theme-solarflare .kwd {
+  color: #FC913A;
+}
+pre.theme-solarflare .com {
+  color: #777777;
+}
+pre.theme-solarflare .typ {
+  color: #FF4E50;
+}
+pre.theme-solarflare .lit {
+  color: #EDE574;
+}
+pre.theme-solarflare .pun,
+pre.theme-solarflare .opn,
+pre.theme-solarflare .clo {
+  color: #e3e2e0;
+}
+pre.theme-solarflare .tag {
+  color: #FC913A;
+}
+pre.theme-solarflare .atn {
+  color: #FF4E50;
+}
+pre.theme-solarflare .atv {
+  color: #EDE574;
+}
+pre.theme-solarflare .dec,
+pre.theme-solarflare .var {
+  color: #EDE574;
+}
+pre.theme-solarflare .fun {
+  color: #FC913A;
+}
