@@ -398,7 +398,7 @@ Find more themes at : https://github.com/daylerees/colour-schemes
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#b7b1a9</string>
+                <string>#8998b9</string>
             </dict>
         </dict>
         <dict>
@@ -454,11 +454,24 @@ Find more themes at : https://github.com/daylerees/colour-schemes
             <key>name</key>
             <string>Function argument</string>
             <key>scope</key>
-            <string>keyword.other.use</string>
+            <string>keyword.other.use, keyword.other.function.use, keyword.other.namespace, keyword.other.new</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
                 <string>#26A6A6</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function argument</string>
+            <key>scope</key>
+            <string>meta.use support.class.builtin, meta.other.inherited-class support.class.builtin</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#dee3ec</string>
+                <key>fontStyle</key>
+                <string>normal</string>
             </dict>
         </dict>
     </array>

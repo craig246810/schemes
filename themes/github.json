@@ -29,6 +29,6 @@
     "bracket_content":          "#008080",
     "invalid_foreground":       "#f8f8f0",
     "invalid_background":       "#00a8c6",
-    "docblock":                 "#b7b1a9"
+    "docblock":                 "#7f7e7a"
 
 }
