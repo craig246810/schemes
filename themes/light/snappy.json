@@ -3,7 +3,8 @@
         "name":             "Snappy Light",
         "description":      "Snappy Light.",
         "author":           "Dayle Rees",
-        "slug":             "snappy-light"
+        "slug":             "snappy-light",
+        "dir":              "light"
     },
 
     "background":               "#ffffff",
@@ -30,5 +31,4 @@
     "invalid_foreground":       "#f8f8f0",
     "invalid_background":       "#00a8c6",
     "docblock":                 "#7d7d7d"
-
 }
