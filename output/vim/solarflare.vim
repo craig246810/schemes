@@ -1,10 +1,12 @@
-" Vim color file
-" Maintainer: Anders Korte <anderskorte@eml.cc>
-" Last Change: 6 Apr 2005
-
-" Guardian color scheme 1.2
-
-" Rich-syntax colors for source editing and other vimming.
+" ======================================================================
+" Solarflare
+" ======================================================================
+" A Sublime Text 2 / Textmate theme.
+" Copyright (c) 2014 Dayle Rees.
+" Released under the MIT License <http://opensource.org/licenses/MIT>
+" ======================================================================
+" Find more themes at : https://github.com/daylerees/colour-schemes
+" ======================================================================
 
 set background=dark
 hi clear
