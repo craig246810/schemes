@@ -5,7 +5,6 @@ require 'fileutils'
 # Iterate theme files.
 Dir['themes/*.json', 'themes/*/*.json'].each do |theme|
 
-
     # Load the theme file.
     theme = IO.read theme
 
