@@ -1,6 +1,7 @@
 require 'json'
 require 'handlebars'
 require 'fileutils'
+require 'digest/md5'
 
 # Iterate theme files.
 Dir['themes/*.json', 'themes/*/*.json'].each do |theme|
@@ -16,6 +17,14 @@ Dir['themes/*.json', 'themes/*/*.json'].each do |theme|
 
     # Output current theme being processed.
     puts "THEME: " + theme['theme']['name']
+
+    # Generate UUID for sublime themes.
+    uuid = Digest::MD5.hexdigest(theme['theme']['slug'])
+    uuid.insert(20, '-')
+    uuid.insert(16, '-')
+    uuid.insert(12, '-')
+    uuid.insert(8, '-')
+    theme['uuid'] = uuid
 
     # Quick hack to insert unhashed values into the template array.
     temp = Hash.new
