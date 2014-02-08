@@ -1,9 +1,9 @@
 {
     "theme": {
-        "name":             "Temp",
-        "description":      "Temp",
+        "name":             "Peel",
+        "description":      "Peel",
         "author":           "Dayle Rees",
-        "slug":             "temp"
+        "slug":             "peel"
     },
 
     "background":               "#23201c",
