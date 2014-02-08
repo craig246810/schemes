@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temp</title>
+    <style>
+        body {
+            margin:0;
+            background-color: #23201c;
+        }
+
+        pre {
+            font-family:Monaco, monospace;
+            padding:2em;
+            font-size:0.7em;
+        }
+    </style>
+</head>
+<body>
+
+<pre style="background-color: #23201c; color: #EDEBE6;">
+&lt;php
+
+namespace DayleRees\ColourSchemes;
+
+class Colour
+{
+    /**
+     * Theme name.
+
+     * @type string
+     */
+    protected $theme = 'temp';
+
+    /**
+     * Dayle Rees Colour Schemes
+
+     * @return ColourScheme
+     */
+    public function schemes()
+    {
+        $theme = new ColourScheme;
+        $theme->setAwesome('100%');
+        return $theme;
+    }
+}
+</pre>
+
+</body>
+</html>
