@@ -1,30 +1,10 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>{{ theme.name }}</title>
-    <style>
-        body {
-            margin:0;
-            background-color: {{ background }};
-        }
-
-        pre {
-            font-family:Monaco, monospace;
-            padding:2em;
-            font-size:0.7em;
-        }
-    </style>
-</head>
-<body>
-
-<pre style="background-color: {{ background }}; color: {{ foreground }};">
+<pre style="font-family:Monaco, monospace; padding:2em; background-color: {{ background }}; color: {{ foreground }};">
 &lt;?php
 
-<span style="color: {{ second }};">namespace</span> Illuminate\Container;
+<span style="color: {{ first }};">namespace</span> Illuminate\Container;
 
 <span style="color: {{ first }};">use</span> Closure;
-<span style="color: {{ first }};">use</span> <span style="color: {{ second }};">ArrayAccess</span>;
+<span style="color: {{ first }};">use</span> ArrayAccess;
 
 <span style="color: {{ comment }};">/**
  * Theme: {{ theme.name }}
@@ -32,37 +12,34 @@
  *
  * Copyright (c) {{ year }} {{ theme.author }}
  */</span>
-<span style="color: {{ first }};">class</span> Container <span style="color: {{ second }};">implements</span> <span style="color: {{ second }};">ArrayAccess</span> {
-
+<span style="color: {{ first }};">class</span> Container <span style="color: {{ second }};">implements</span> ArrayAccess
+{
     <span style="color: {{ comment }};">/**
      * An array of the types that have been resolved.
      *
-     * <span style="color: {{ first }};">@var</span> array
+     * <span style="color: {{ docblock }};">@var</span> array
      */</span>
-    <span style="color: {{ second }};">protected</span> $resolved <span style="color: {{ first }};">=</span> <span style="color: {{ second }};">array</span>();
+    <span style="color: {{ second }};">protected</span> <span style="color: {{ variables }};">$resolved</span> <span style="color: {{ first }};">=</span> <span style="color: {{ fifth }};">array</span>();
 
     <span style="color: {{ comment }};">/**
      * Determine if a given type is shared.
      *
-     * <span style="color: {{ first }};">@param</span>  string  $abstract
-     * <span style="color: {{ first }};">@return</span> bool
+     * <span style="color: {{ docblock }};">@param</span>  string  $abstract
+     * <span style="color: {{ docblock }};">@return</span> bool
      */</span>
-    <span style="color: {{ second }};">public</span> <span style="color: {{ first }};">function</span> <span style="color: {{ third }};">isShared</span>($abstract)
+    <span style="color: {{ second }};">public</span> <span style="color: {{ first }};">function</span> <span style="color: {{ third }};">isShared</span>(<span style="color: {{ variables }};">$abstract</span>)
     {
-        <span style="color: {{ first }};">if</span> (<span style="color: {{ second }};">isset</span>($this<span style="color: {{ first }};">-></span>bindings[$abstract][<span style="color: {{ string }};">'shared'</span>]))
+        <span style="color: {{ fourth }};">if</span> (<span style="color: {{ fifth }};">isset</span>(<span style="color: {{ variables }};">$this</span><span style="color: {{ fourth }};">-></span><span style="color: {{ variables }};">bindings</span>[<span style="color: {{ variables }};">$abstract</span>][<span style="color: {{ string }};">'shared'</span>]))
         {
-            $shared <span style="color: {{ first }};">=</span> $this<span style="color: {{ first }};">-></span>bindings[$abstract][<span style="color: {{ string }};">'shared'</span>];
+            <span style="color: {{ variables }};">$shared</span> <span style="color: {{ fourth }};">=</span> <span style="color: {{ variables }};">$this</span><span style="color: {{ fourth }};">-></span><span style="color: {{ variables }};">bindings</span>[<span style="color: {{ variables }};">$abstract</span>][<span style="color: {{ string }};">'shared'</span>];
         }
-        <span style="color: {{ first }};">else</span>
+        <span style="color: {{ fourth }};">else</span>
         {
-            $shared <span style="color: {{ first }};">=</span> <span style="color: {{ second }};">false</span>;
+            <span style="color: {{ variables }};">$shared</span> <span style="color: {{ fourth }};">=</span> <span style="color: {{ second }};">false</span>;
         }
 
-        <span style="color: {{ first }};">return</span> <span style="color: {{ second }};">isset</span>($this<span style="color: {{ first }};">-></span>instances[$abstract]) <span style="color: {{ first }};">||</span> $shared <span style="color: {{ first }};">===</span> <span style="color: {{ second }};">true</span>;
+        <span style="color: {{ fourth }};">return</span> <span style="color: {{ fifth }};">isset</span>(<span style="color: {{ variables }};">$this</span><span style="color: {{ fourth }};">-></span><span style="color: {{ variables }};">instances</span>[<span style="color: {{ variables }};">$abstract</span>]) <span style="color: {{ fourth }};">||</span> <span style="color: {{ variables }};">$shared</span> <span style="color: {{ fourth }};">===</span> <span style="color: {{ second }};">true</span>;
     }
 
 }
 </pre>
-
-</body>
-</html>

@@ -1,16 +1,16 @@
 {
     "theme": {
         "name":             "Legacy",
-        "description":      "Legacy",
+        "description":      "Aurélien Thieriot wasn't happy with just one theme, here's Tron Legacy!",
         "author":           "Dayle Rees",
         "slug":             "legacy"
     },
 
     "background":               "#14191f",
     "foreground":               "#aec2e0",
-    "first":                    "#FFB20D",
-    "second":                   "#267fb5",
-    "third":                    "#FF410D",
+    "first":                    "#267fb5",
+    "second":                   "#ffffff",
+    "third":                    "#FFB20D",
     "fourth":                   "#748aa6",
     "fifth":                    "#267fb5",
     "comment":                  "#324357",

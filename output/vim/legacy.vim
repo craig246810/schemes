@@ -33,7 +33,7 @@ hi Titled      guibg=bg guifg=fg       gui=none ctermbg=bg ctermfg=fg
 hi ErrorMsg    guibg=bg guifg=#ff0000   ctermbg=bg ctermfg=12
 hi ModeMsg     guibg=bg guifg=#ffeecc  gui=none ctermbg=bg ctermfg=14
 hi link  MoreMsg     ModeMsg
-hi Question    guibg=bg guifg=#FFB20D   ctermbg=bg ctermfg=10
+hi Question    guibg=bg guifg=#267fb5   ctermbg=bg ctermfg=10
 hi link  WarningMsg  ErrorMsg
 
 hi StatusLine     guibg=#ffeecc  guifg=black     ctermbg=14 ctermfg=0
@@ -51,32 +51,32 @@ hi Comment  guibg=bg  guifg=#324357  gui=none    ctermbg=8   ctermfg=7
 
 hi Constant    guibg=bg    guifg=white        ctermbg=8   ctermfg=15
 hi String      guibg=bg    guifg=#FF410D    ctermbg=bg  ctermfg=14
-hi Character   guibg=bg    guifg=#267fb5      ctermbg=bg  ctermfg=14
+hi Character   guibg=bg    guifg=#ffffff      ctermbg=bg  ctermfg=14
 hi Number      guibg=bg    guifg=#C7F026      ctermbg=1   ctermfg=15
 hi Boolean     guibg=bg    guifg=#C7F026  gui=none    ctermbg=1   ctermfg=15
 hi Float       guibg=bg    guifg=#C7F026      ctermbg=1   ctermfg=15
 
 hi Identifier  guibg=bg    guifg=#aec2e0      ctermbg=bg  ctermfg=12
-hi Function    guibg=bg    guifg=#267fb5      ctermbg=bg  ctermfg=12
-hi Statement   guibg=bg    guifg=#267fb5      ctermbg=bg  ctermfg=14
+hi Function    guibg=bg    guifg=#ffffff      ctermbg=bg  ctermfg=12
+hi Statement   guibg=bg    guifg=#ffffff      ctermbg=bg  ctermfg=14
 
 hi Conditional guibg=bg    guifg=#748aa6      ctermbg=bg  ctermfg=12
 hi Repeat      guibg=bg    guifg=#748aa6      ctermbg=4   ctermfg=14
 hi Label       guibg=bg    guifg=#ffccff      ctermbg=bg   ctermfg=13
 hi Operator    guibg=bg    guifg=#748aa6      ctermbg=6   ctermfg=15
 hi Keyword     guibg=bg    guifg=#748aa6      ctermbg=bg  ctermfg=10
-hi Exception   guibg=bg    guifg=#267fb5      ctermbg=bg  ctermfg=10
+hi Exception   guibg=bg    guifg=#ffffff      ctermbg=bg  ctermfg=10
 
 hi PreProc    guibg=bg   guifg=#ffcc99   ctermbg=4  ctermfg=14
-hi Include    guibg=bg   guifg=#FFB20D   ctermbg=bg ctermfg=10
+hi Include    guibg=bg   guifg=#267fb5   ctermbg=bg ctermfg=10
 hi link Define    Include
 hi link Macro     Include
 hi link PreCondit Include
 
-hi Type       guibg=bg   guifg=#FFB20D      ctermbg=bg  ctermfg=12
-hi StorageClass   guibg=bg   guifg=#267fb5      ctermbg=bg  ctermfg=10
+hi Type       guibg=bg   guifg=#267fb5      ctermbg=bg  ctermfg=12
+hi StorageClass   guibg=bg   guifg=#ffffff      ctermbg=bg  ctermfg=10
 hi Structure      guibg=bg   guifg=#aec2e0      ctermbg=bg  ctermfg=10
-hi Typedef    guibg=bg   guifg=#FFB20D    ctermbg=bg  ctermfg=10
+hi Typedef    guibg=bg   guifg=#267fb5    ctermbg=bg  ctermfg=10
 
 hi Special    guibg=bg   guifg=#bbddff      ctermbg=1   ctermfg=15
 hi SpecialChar    guibg=bg   guifg=#bbddff      ctermbg=1   ctermfg=15
